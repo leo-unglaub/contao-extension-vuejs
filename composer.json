@@ -1,0 +1,40 @@
+{
+	"name": "leo-unglaub/contao-vuejs",
+	"description": "vue.js library",
+	"keywords": [
+		"contao",
+		"vuejs",
+		"vue",
+		"javascript",
+		"library"
+	],
+	"type": "contao-module",
+	"license": "LGPL-3.0+",
+	"authors": [
+		{
+			"name": "Leo Unglaub",
+			"email": "leo@unglaub.at",
+			"homepage": "https://leo.unglaub.at",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"email": "leo@leo-unglaub.net",
+		"issues": "https://bitbucket.org/leo-unglaub/contao-vuejs/issues",
+		"wiki": "https://www.leo-unglaub.net/software/contao-extensions",
+		"irc": "irc://irc.freenode.org/contao.dev",
+		"source": "https://bitbucket.org/leo-unglaub/contao-vuejs/src/"
+	},
+	"require": {
+		"php": ">=5.3",
+		"contao/core": "~3",
+		"contao-community-alliance/composer-installer": "*"
+	},
+	"extra": {
+		"contao": {
+			"sources": {
+				"assets/vuejs": "assets/vuejs"
+			}
+		}
+	}
+}
