@@ -19,16 +19,18 @@
 		}
 	],
 	"support": {
-		"email": "leo@leo-unglaub.net",
 		"issues": "https://bitbucket.org/leo-unglaub/contao-vuejs/issues",
-		"wiki": "https://www.leo-unglaub.net/software/contao-extensions",
+		"source": "https://bitbucket.org/leo-unglaub/contao-vuejs/src/",
 		"irc": "irc://irc.freenode.org/contao.dev",
-		"source": "https://bitbucket.org/leo-unglaub/contao-vuejs/src/"
+		"email": "leo@leo-unglaub.net"
 	},
 	"require": {
 		"php": "^5.6 || ^7.0",
 		"contao/core": "~3",
 		"contao-community-alliance/composer-installer": "*"
+	},
+	"replace": {
+		"contao-legacy/vuejs": "*"
 	},
 	"extra": {
 		"contao": {
