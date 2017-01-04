@@ -35,7 +35,8 @@
 	"extra": {
 		"contao": {
 			"sources": {
-				"src/assets/vuejs": "assets/vuejs"
+				"src/assets/vuejs": "assets/vuejs",
+				"src/system/modules/vuejs": "system/modules/vuejs"
 			}
 		}
 	}
