@@ -1,6 +1,6 @@
 {
 	"name": "leo-unglaub/contao-vuejs",
-	"description": "Adding the Vue.js library to the Contao CMS.",
+	"description": "Adding the vue.js library to the Contao CMS.",
 	"keywords": [
 		"contao",
 		"vuejs",
